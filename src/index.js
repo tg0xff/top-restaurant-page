@@ -56,3 +56,7 @@ footer = document.createElement("footer");
 footer.textContent = "—Waluigi";
 blockquote.appendChild(footer);
 content.appendChild(blockquote);
+
+h2 = document.createElement("h2");
+h2.textContent = "Hours";
+content.appendChild(h2);
