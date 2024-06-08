@@ -29,3 +29,8 @@ header {
   height: 60px;
   background-color: var(--c-1);
 }
+
+nav {
+  max-width: max-content;
+  margin: 0 auto;
+}
