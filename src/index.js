@@ -60,3 +60,15 @@ content.appendChild(blockquote);
 h2 = document.createElement("h2");
 h2.textContent = "Hours";
 content.appendChild(h2);
+
+const ul = document.createElement("ul");
+let li = document.createElement("li");
+li.textContent = "Monday to Friday: 6am–6pm";
+ul.appendChild(li);
+li = document.createElement("li");
+li.textContent = "Saturday: 8am–6pm";
+ul.appendChild(li);
+li = document.createElement("li");
+li.textContent = "Sunday: 8am–2pm";
+ul.appendChild(li);
+content.appendChild(ul);
