@@ -109,3 +109,9 @@ nav button:active {
 .content ul {
   padding: 0;
 }
+
+.content li::marker {
+  content: "★";
+  color: var(--c-6);
+  font-size: 2rem;
+}
