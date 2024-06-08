@@ -105,3 +105,7 @@ nav button:active {
 .content h2 {
   margin: 14px 0;
 }
+
+.content ul {
+  padding: 0;
+}
