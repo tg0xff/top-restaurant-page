@@ -1,3 +1,4 @@
+import "./style.css";
 import Photo from "./nik-owens-40OJLYVWeeM-unsplash.jpg";
 
 const content = document.querySelector("#content");
