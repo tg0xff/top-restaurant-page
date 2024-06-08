@@ -60,6 +60,7 @@ nav button:active {
 }
 
 .content {
+  font-size: 1.2rem;
   position: relative;
   color: var(--c-fg);
   background-color: var(--c-bg);
