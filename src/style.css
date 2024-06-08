@@ -87,12 +87,6 @@ nav button:active {
   );
 }
 
-.content > * {
-  max-width: 75ch;
-  margin: 0 auto;
-  text-align: justify;
-}
-
 .content h1 {
   margin: 22px 0;
 }
