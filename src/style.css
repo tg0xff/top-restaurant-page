@@ -24,3 +24,8 @@ img {
   width: 100%;
   height: auto;
 }
+
+header {
+  height: 60px;
+  background-color: var(--c-1);
+}
