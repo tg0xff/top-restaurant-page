@@ -110,3 +110,7 @@ nav button:active {
   color: var(--c-6);
   font-size: 2rem;
 }
+
+.content li {
+  margin: 0 30px;
+}
