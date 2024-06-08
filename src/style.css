@@ -66,6 +66,7 @@ nav button:active {
   border-radius: 3px;
   max-width: 80vw;
   margin: 10px auto;
+  padding: 23px 0;
 }
 
 .content::before {
@@ -83,4 +84,15 @@ nav button:active {
     var(--c-4) 0 5px,
     var(--c-5) 5px 10px
   );
+}
+
+.content > * {
+  max-width: 75ch;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.content h1,
+.content h2 {
+  text-align: center;
 }
