@@ -47,3 +47,12 @@ nav button {
   border-radius: 10px;
   padding: 10px 18px;
 }
+
+nav button:hover {
+  background-color: var(--c-2);
+}
+
+nav button:active {
+  color: var(--c-fg);
+  background-color: var(--c-6);
+}
