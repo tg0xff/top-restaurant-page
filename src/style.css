@@ -1,4 +1,17 @@
-*, *::before, *::after {
+:root {
+  --c-fg: #000;
+  --c-bg: #fff;
+  --c-1: #e70112;
+  --c-2: #cd0010;
+  --c-3: #ce0010;
+  --c-4: #302f2f;
+  --c-5: #2a2929;
+  --c-6: #ffdf02;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
