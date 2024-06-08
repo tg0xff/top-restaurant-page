@@ -96,7 +96,7 @@ nav button:active {
 }
 
 .content blockquote {
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 .content ul {
