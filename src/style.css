@@ -101,6 +101,10 @@ nav button:active {
   margin: 14px 0;
 }
 
+.content blockquote {
+  margin-bottom: 40px;
+}
+
 .content ul {
   padding: 0;
 }
