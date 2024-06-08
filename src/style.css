@@ -87,6 +87,10 @@ nav button:active {
   );
 }
 
+.content p {
+  max-inline-size: 80ch;
+}
+
 .content h1 {
   margin: 22px 0;
 }
