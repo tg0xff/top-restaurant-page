@@ -24,3 +24,7 @@ let p = document.createElement("p");
 p.textContent =
   "Welcome to Mario's Italian Restaurant, where every dish is crafted with the same passion and precision as a level in one of Nintendo's classic games. Nestled in the heart of New York, Mario's brings the beloved flavors of Italy to your table, all under the watchful eye of our very own mustachioed maestro, Mario himself. From piping hot pizzas straight out of our brick oven to sumptuous pasta dishes bursting with flavor, every bite at Mario's is a culinary adventure. So come join us and experience the magic of Mario's Italian Restaurant, where every meal is a power-up for your taste buds!";
 content.appendChild(p);
+
+let h2 = document.createElement("h2");
+h2.textContent = "Testimonials";
+content.appendChild(h2);
