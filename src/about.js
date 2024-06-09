@@ -1,6 +1,8 @@
 export default function () {
   const content = document.querySelector("#content");
 
+  const textBg = document.createElement("div");
+  textBg.classList.add("text-bg");
   const text = document.createElement("div");
   text.classList.add("text");
 
@@ -60,5 +62,6 @@ export default function () {
   li.textContent = "Sunday: 8am–2pm";
   ul.appendChild(li);
   text.appendChild(ul);
-  content.appendChild(text);
+  textBg.appendChild(text);
+  content.appendChild(textBg);
 }
