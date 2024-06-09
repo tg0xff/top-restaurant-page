@@ -5,6 +5,15 @@ const body = document.querySelector("body");
 body.addEventListener("click", renderPage);
 
 function renderPage(e) {
+  switch (e.target.getAttribute("id")) {
+    case "home":
+      emptyContent();
+      home();
+      break;
+  }
+}
+
+function emptyContent() {
   let content = body.querySelector("#content");
   content.parentElement.removeChild(content);
 
@@ -12,12 +21,6 @@ function renderPage(e) {
   content.setAttribute("id", "content");
   content.classList.add("content");
   body.appendChild(content);
-
-  switch (e.target.getAttribute("id")) {
-    case "home":
-      home();
-      break;
-  }
 }
 
 home();
