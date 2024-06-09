@@ -19,7 +19,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   line-height: 1.5;
-  background: 0% 0% / 14% url("./tile.svg") repeat var(--c-2);
+  background: -7% -22% / 14% url("./tile.svg") repeat var(--c-2);
 }
 
 header {
