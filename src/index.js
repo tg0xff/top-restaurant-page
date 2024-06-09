@@ -1,5 +1,5 @@
 import "./style.css";
-import home from "./home.js";
+import about from "./about.js";
 
 const body = document.querySelector("body");
 body.addEventListener("click", renderPage);
@@ -8,8 +8,10 @@ function renderPage(e) {
   switch (e.target.getAttribute("id")) {
     case "home":
       emptyContent();
-      home();
       break;
+    case "about":
+      emptyContent();
+      about();
   }
 }
 
