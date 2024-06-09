@@ -19,13 +19,11 @@ function renderPage(e) {
 
 function resetContent() {
   let content = body.querySelector("#content");
-  if (content) {
-    content.parentElement.removeChild(content);
-    content = document.createElement("div");
-    content.setAttribute("id", "content");
-    content.classList.add("content");
-    body.appendChild(content);
-  }
+  content.parentElement.removeChild(content);
+  content = document.createElement("div");
+  content.setAttribute("id", "content");
+  content.classList.add("content");
+  body.appendChild(content);
 }
 
 home();
