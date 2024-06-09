@@ -7,15 +7,15 @@ body.addEventListener("click", renderPage);
 function renderPage(e) {
   switch (e.target.getAttribute("id")) {
     case "home":
-      emptyContent();
+      resetContent();
       break;
     case "about":
-      emptyContent();
+      resetContent();
       about();
   }
 }
 
-function emptyContent() {
+function resetContent() {
   let content = body.querySelector("#content");
   if (content) {
     content.parentElement.removeChild(content);
