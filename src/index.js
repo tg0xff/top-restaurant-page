@@ -17,12 +17,13 @@ function renderPage(e) {
 
 function emptyContent() {
   let content = body.querySelector("#content");
-  content.parentElement.removeChild(content);
-
-  content = document.createElement("div");
-  content.setAttribute("id", "content");
-  content.classList.add("content");
-  body.appendChild(content);
+  if (content) {
+    content.parentElement.removeChild(content);
+    content = document.createElement("div");
+    content.setAttribute("id", "content");
+    content.classList.add("content");
+    body.appendChild(content);
+  }
 }
 
 home();
