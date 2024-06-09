@@ -85,7 +85,7 @@ nav button:active {
   padding: 5px 11px;
 }
 
-.content {
+.text-bg {
   font-size: 1.2rem;
   position: relative;
   color: var(--c-fg);
@@ -96,7 +96,7 @@ nav button:active {
   padding: 10px;
 }
 
-.content::before {
+.text-bg::before {
   content: "";
   position: absolute;
   top: 0;
