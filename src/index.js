@@ -2,6 +2,7 @@ import "./style.css";
 import home from "./home.js";
 
 const body = document.querySelector("body");
+body.addEventListener("click", renderPage);
 
 function renderPage(e) {
   let content = body.querySelector("#content");
