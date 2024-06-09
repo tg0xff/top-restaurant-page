@@ -1,4 +1,5 @@
 import "./style.css";
+import home from "./home.js";
 import about from "./about.js";
 
 const body = document.querySelector("body");
@@ -8,6 +9,7 @@ function renderPage(e) {
   switch (e.target.getAttribute("id")) {
     case "home":
       resetContent();
+      home();
       break;
     case "about":
       resetContent();
