@@ -4,7 +4,7 @@ export default function () {
   const content = document.querySelector("#content");
   const hero = document.createElement("div");
   hero.classList.add("hero");
-  const figure = document.createElement("div");
+  const figure = document.createElement("figure");
   hero.appendChild(figure);
   const img = document.createElement("img");
   img.setAttribute("src", Photo);
