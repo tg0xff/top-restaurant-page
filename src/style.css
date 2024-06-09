@@ -22,11 +22,6 @@ body {
   background-color: var(--c-2);
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 header {
   height: 75px;
   background-color: var(--c-1);
@@ -58,6 +53,36 @@ nav button:hover {
 nav button:active {
   color: var(--c-fg);
   background-color: var(--c-6);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, auto);
+}
+
+.hero,
+.hero a {
+  color: #fff;
+}
+
+.hero img {
+  max-height: 60vh;
+  max-width: 100%;
+}
+
+.hero > figure {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  place-self: center;
+}
+
+.hero > h1 {
+  grid-column: 1 / -1;
+  grid-row: 5;
+  place-self: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 5px 11px;
 }
 
 .content {
