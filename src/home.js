@@ -1,6 +1,7 @@
 import Photo from "./nik-owens-40OJLYVWeeM-unsplash.jpg";
 
 export default function () {
+  const content = document.querySelector("#content");
   const hero = document.createElement("div");
   hero.classList.add("hero");
   const figure = document.createElement("div");
@@ -15,4 +16,5 @@ export default function () {
   const h1 = document.createElement("h1");
   h1.textContent = "Mario's Italian Restaurant";
   hero.appendChild(h1);
+  content.appendChild(hero);
 }
