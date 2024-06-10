@@ -156,3 +156,7 @@ nav button:active {
   max-width: 80vw;
   margin: 0 auto;
 }
+
+.menu img {
+  image-rendering: pixelated;
+}
