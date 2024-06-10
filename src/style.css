@@ -55,6 +55,10 @@ nav button:active {
   background-color: var(--c-6);
 }
 
+.content {
+  margin: 40px 0;
+}
+
 .hero {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -92,7 +96,7 @@ nav button:active {
   background-color: var(--c-bg);
   border-radius: 3px;
   max-width: 80vw;
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 10px;
 }
 
