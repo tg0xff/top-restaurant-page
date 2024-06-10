@@ -3,7 +3,7 @@ import originalMushroom from "./original-mushroom.png";
 import mysteryMushroom from "./mystery-mushroom.png";
 import fireFlower from "./fireflower.png";
 import star from "./star.gif";
-import fuzzy from "./fuzzy.webp";
+import fuzzy from "./fuzzy.png";
 
 export default function () {
   const content = document.querySelector("#content");
