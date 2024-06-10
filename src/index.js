@@ -1,5 +1,6 @@
 import "./style.css";
 import home from "./home.js";
+import menu from "./menu.js";
 import about from "./about.js";
 
 const body = document.querySelector("body");
@@ -10,6 +11,10 @@ function renderPage(e) {
     case "home":
       resetContent();
       home();
+      break;
+    case "menu":
+      resetContent();
+      menu();
       break;
     case "about":
       resetContent();
