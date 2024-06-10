@@ -14,6 +14,7 @@ function renderPage(e) {
     case "about":
       resetContent();
       about();
+      break;
   }
 }
 
