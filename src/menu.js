@@ -50,6 +50,7 @@ export default function () {
 
   for (const topping of toppings) {
     const div = document.createElement("div");
+    div.classList.add("topping");
     const img = new Image();
     img.alt = `${topping.name} original sprite.`;
     img.src = topping.image;
