@@ -168,6 +168,10 @@ nav button:active {
   grid-template-rows: auto minmax(200px, 1fr);
 }
 
+.topping p {
+  margin: 0;
+}
+
 .topping img {
   image-rendering: pixelated;
   grid-column: 1;
