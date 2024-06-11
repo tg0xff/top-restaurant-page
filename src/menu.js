@@ -21,7 +21,7 @@ export default function () {
       name: "Original Mushroom",
       image: originalMushroom,
       description:
-        "A classic! Quite similar to the Super Mushroom, but with a pixelated tinge. For the discerning taste of a 'shroom connoisseur.",
+        "A classic! Quite similar to the Super Mushroom, but with a more pronounced pixelated tinge. For the discerning taste of a 'shroom connoisseur.",
     },
     {
       name: "Mystery Mushroom",
