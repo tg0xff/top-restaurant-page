@@ -178,7 +178,8 @@ nav button:active {
   image-rendering: pixelated;
   grid-column: 1;
   grid-row: 1 / -1;
-  place-self: center;
+  align-self: start;
+  justify-self: center;
   width: 100%;
   height: auto;
 }
