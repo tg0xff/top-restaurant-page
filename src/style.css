@@ -185,9 +185,12 @@ nav button:active {
 .topping-name {
   grid-column: 2;
   grid-row: 1;
+  font-size: 2.3rem;
+  font-weight: 900;
 }
 
 .topping-desc {
   grid-column: 2;
   grid-row: 2;
+  font-size: 1.4rem;
 }
