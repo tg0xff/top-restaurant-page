@@ -162,6 +162,24 @@ nav button:active {
   grid-auto-rows: minmax(250px, 1fr);
 }
 
+.menu > div {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto minmax(200px, 1fr);
+}
+
 .menu img {
   image-rendering: pixelated;
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+
+.topping-name {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.topping-desc {
+  grid-column: 2;
+  grid-row: 2;
 }
