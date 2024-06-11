@@ -152,6 +152,7 @@ nav button:active {
 .menu {
   color: #fff;
   background-color: rgb(0, 0, 0, 0.75);
+  border-radius: 33px;
   font-size: 1.1rem;
   max-width: 80vw;
   margin: 0 auto;
