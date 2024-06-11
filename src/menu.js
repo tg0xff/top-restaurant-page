@@ -55,9 +55,11 @@ export default function () {
     img.src = topping.image;
     div.appendChild(img);
     const name = document.createElement("div");
+    name.classList.add("topping-name");
     name.textContent = topping.name;
     div.appendChild(name);
     const description = document.createElement("p");
+    description.classList.add("topping-desc");
     description.textContent = topping.description;
     div.appendChild(description);
     menu.appendChild(div);
